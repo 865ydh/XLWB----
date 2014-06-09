@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647CB2661917CDD700D22682 /* YDHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 647CB2651917CDD700D22682 /* YDHTabBar.m */; };
 		649D0D461917A9E9009D9DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649D0D451917A9E9009D9DB1 /* Foundation.framework */; };
 		649D0D481917A9E9009D9DB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649D0D471917A9E9009D9DB1 /* CoreGraphics.framework */; };
 		649D0D4A1917A9E9009D9DB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649D0D491917A9E9009D9DB1 /* UIKit.framework */; };
 		649D0D501917A9E9009D9DB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 649D0D4E1917A9E9009D9DB1 /* InfoPlist.strings */; };
-		649D0D521917A9E9009D9DB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0D511917A9E9009D9DB1 /* main.m */; };
-		649D0D561917A9E9009D9DB1 /* YDHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0D551917A9E9009D9DB1 /* YDHAppDelegate.m */; };
 		649D0D581917A9E9009D9DB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649D0D571917A9E9009D9DB1 /* Images.xcassets */; };
 		649D0D5F1917A9E9009D9DB1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649D0D5E1917A9E9009D9DB1 /* XCTest.framework */; };
 		649D0D601917A9E9009D9DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649D0D451917A9E9009D9DB1 /* Foundation.framework */; };
 		649D0D611917A9E9009D9DB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649D0D491917A9E9009D9DB1 /* UIKit.framework */; };
 		649D0D691917A9E9009D9DB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 649D0D671917A9E9009D9DB1 /* InfoPlist.strings */; };
 		649D0D6B1917A9E9009D9DB1 /* XLWBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0D6A1917A9E9009D9DB1 /* XLWBTests.m */; };
+		649D0D961917ACFA009D9DB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0D921917ACFA009D9DB1 /* main.m */; };
+		649D0D971917ACFA009D9DB1 /* YDHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0D951917ACFA009D9DB1 /* YDHAppDelegate.m */; };
+		649D0D9A1917AD59009D9DB1 /* YDHMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0D991917AD59009D9DB1 /* YDHMessageViewController.m */; };
+		649D0D9D1917AF43009D9DB1 /* YDHTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0D9C1917AF43009D9DB1 /* YDHTabBarViewController.m */; };
+		649D0DA01917AFE1009D9DB1 /* YDHMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0D9F1917AFE1009D9DB1 /* YDHMeTableViewController.m */; };
+		649D0DA31917AFFF009D9DB1 /* YDHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0DA21917AFFF009D9DB1 /* YDHHomeViewController.m */; };
+		649D0DA61917B015009D9DB1 /* YDHDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0DA51917B015009D9DB1 /* YDHDiscoverViewController.m */; };
+		649D0DAC1917C847009D9DB1 /* UIImage+YDH.m in Sources */ = {isa = PBXBuildFile; fileRef = 649D0DAB1917C847009D9DB1 /* UIImage+YDH.m */; };
+		64DD577F1917E11A007F3519 /* YDHTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DD577E1917E11A007F3519 /* YDHTabBarButton.m */; };
+		64DD57821918A943007F3519 /* YDHBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DD57811918A943007F3519 /* YDHBadgeButton.m */; };
+		64DD57851918B4DD007F3519 /* YDHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DD57841918B4DD007F3519 /* YDHNavigationController.m */; };
+		64DD57881918FB67007F3519 /* UIBarButtonItem+YDH.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DD57871918FB67007F3519 /* UIBarButtonItem+YDH.m */; };
+		64DD578B1919320F007F3519 /* YDHTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DD578A1919320F007F3519 /* YDHTitleButton.m */; };
+		64E1E3F91919FA24000A43F5 /* YDHNewfeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E1E3F81919FA24000A43F5 /* YDHNewfeatureViewController.m */; };
+		64E1E3FC1919FA4B000A43F5 /* YDHPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E1E3FB1919FA4B000A43F5 /* YDHPageControl.m */; };
+		64E1E410191A4738000A43F5 /* YDHBaseSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E1E40D191A4738000A43F5 /* YDHBaseSettingViewController.m */; };
+		64E1E413191A475B000A43F5 /* YDHSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E1E412191A475B000A43F5 /* YDHSettingViewController.m */; };
+		64E1E416191A49A1000A43F5 /* YDHSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E1E415191A49A1000A43F5 /* YDHSettingItem.m */; };
+		64E1E419191A4C65000A43F5 /* YDHSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E1E418191A4C65000A43F5 /* YDHSettingCell.m */; };
+		64E1E41C191A4E78000A43F5 /* YDHSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 64E1E41B191A4E78000A43F5 /* YDHSettingGroup.m */; };
+		64F327161919EF9D00725D20 /* YDHSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F327151919EF9D00725D20 /* YDHSearchBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +52,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		647CB2641917CDD700D22682 /* YDHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHTabBar.h; sourceTree = "<group>"; };
+		647CB2651917CDD700D22682 /* YDHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHTabBar.m; sourceTree = "<group>"; };
 		649D0D421917A9E9009D9DB1 /* XLWB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLWB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649D0D451917A9E9009D9DB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		649D0D471917A9E9009D9DB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		649D0D491917A9E9009D9DB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		649D0D4D1917A9E9009D9DB1 /* XLWB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XLWB-Info.plist"; sourceTree = "<group>"; };
 		649D0D4F1917A9E9009D9DB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		649D0D511917A9E9009D9DB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		649D0D531917A9E9009D9DB1 /* XLWB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLWB-Prefix.pch"; sourceTree = "<group>"; };
-		649D0D541917A9E9009D9DB1 /* YDHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDHAppDelegate.h; sourceTree = "<group>"; };
-		649D0D551917A9E9009D9DB1 /* YDHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDHAppDelegate.m; sourceTree = "<group>"; };
 		649D0D571917A9E9009D9DB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		649D0D5D1917A9E9009D9DB1 /* XLWBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLWBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		649D0D5E1917A9E9009D9DB1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		649D0D661917A9E9009D9DB1 /* XLWBTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XLWBTests-Info.plist"; sourceTree = "<group>"; };
 		649D0D681917A9E9009D9DB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		649D0D6A1917A9E9009D9DB1 /* XLWBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLWBTests.m; sourceTree = "<group>"; };
+		649D0D921917ACFA009D9DB1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		649D0D931917ACFA009D9DB1 /* XLWB-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XLWB-Prefix.pch"; sourceTree = "<group>"; };
+		649D0D941917ACFA009D9DB1 /* YDHAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHAppDelegate.h; sourceTree = "<group>"; };
+		649D0D951917ACFA009D9DB1 /* YDHAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHAppDelegate.m; sourceTree = "<group>"; };
+		649D0D981917AD59009D9DB1 /* YDHMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHMessageViewController.h; sourceTree = "<group>"; };
+		649D0D991917AD59009D9DB1 /* YDHMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHMessageViewController.m; sourceTree = "<group>"; };
+		649D0D9B1917AF43009D9DB1 /* YDHTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHTabBarViewController.h; sourceTree = "<group>"; };
+		649D0D9C1917AF43009D9DB1 /* YDHTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHTabBarViewController.m; sourceTree = "<group>"; };
+		649D0D9E1917AFE1009D9DB1 /* YDHMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHMeTableViewController.h; sourceTree = "<group>"; };
+		649D0D9F1917AFE1009D9DB1 /* YDHMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHMeTableViewController.m; sourceTree = "<group>"; };
+		649D0DA11917AFFF009D9DB1 /* YDHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHHomeViewController.h; sourceTree = "<group>"; };
+		649D0DA21917AFFF009D9DB1 /* YDHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHHomeViewController.m; sourceTree = "<group>"; };
+		649D0DA41917B015009D9DB1 /* YDHDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHDiscoverViewController.h; sourceTree = "<group>"; };
+		649D0DA51917B015009D9DB1 /* YDHDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHDiscoverViewController.m; sourceTree = "<group>"; };
+		649D0DAA1917C847009D9DB1 /* UIImage+YDH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YDH.h"; sourceTree = "<group>"; };
+		649D0DAB1917C847009D9DB1 /* UIImage+YDH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YDH.m"; sourceTree = "<group>"; };
+		64DD577D1917E11A007F3519 /* YDHTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHTabBarButton.h; sourceTree = "<group>"; };
+		64DD577E1917E11A007F3519 /* YDHTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHTabBarButton.m; sourceTree = "<group>"; };
+		64DD57801918A943007F3519 /* YDHBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHBadgeButton.h; sourceTree = "<group>"; };
+		64DD57811918A943007F3519 /* YDHBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHBadgeButton.m; sourceTree = "<group>"; };
+		64DD57831918B4DD007F3519 /* YDHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHNavigationController.h; sourceTree = "<group>"; };
+		64DD57841918B4DD007F3519 /* YDHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHNavigationController.m; sourceTree = "<group>"; };
+		64DD57861918FB67007F3519 /* UIBarButtonItem+YDH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YDH.h"; sourceTree = "<group>"; };
+		64DD57871918FB67007F3519 /* UIBarButtonItem+YDH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YDH.m"; sourceTree = "<group>"; };
+		64DD57891919320F007F3519 /* YDHTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHTitleButton.h; sourceTree = "<group>"; };
+		64DD578A1919320F007F3519 /* YDHTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHTitleButton.m; sourceTree = "<group>"; };
+		64E1E3F71919FA24000A43F5 /* YDHNewfeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHNewfeatureViewController.h; sourceTree = "<group>"; };
+		64E1E3F81919FA24000A43F5 /* YDHNewfeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHNewfeatureViewController.m; sourceTree = "<group>"; };
+		64E1E3FA1919FA4B000A43F5 /* YDHPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHPageControl.h; sourceTree = "<group>"; };
+		64E1E3FB1919FA4B000A43F5 /* YDHPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHPageControl.m; sourceTree = "<group>"; };
+		64E1E40C191A4738000A43F5 /* YDHBaseSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHBaseSettingViewController.h; sourceTree = "<group>"; };
+		64E1E40D191A4738000A43F5 /* YDHBaseSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHBaseSettingViewController.m; sourceTree = "<group>"; };
+		64E1E411191A475B000A43F5 /* YDHSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHSettingViewController.h; sourceTree = "<group>"; };
+		64E1E412191A475B000A43F5 /* YDHSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHSettingViewController.m; sourceTree = "<group>"; };
+		64E1E414191A49A1000A43F5 /* YDHSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHSettingItem.h; sourceTree = "<group>"; };
+		64E1E415191A49A1000A43F5 /* YDHSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHSettingItem.m; sourceTree = "<group>"; };
+		64E1E417191A4C65000A43F5 /* YDHSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHSettingCell.h; sourceTree = "<group>"; };
+		64E1E418191A4C65000A43F5 /* YDHSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHSettingCell.m; sourceTree = "<group>"; };
+		64E1E41A191A4E78000A43F5 /* YDHSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHSettingGroup.h; sourceTree = "<group>"; };
+		64E1E41B191A4E78000A43F5 /* YDHSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHSettingGroup.m; sourceTree = "<group>"; };
+		64F327141919EF9D00725D20 /* YDHSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHSearchBar.h; sourceTree = "<group>"; };
+		64F327151919EF9D00725D20 /* YDHSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHSearchBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +167,14 @@
 		649D0D4B1917A9E9009D9DB1 /* XLWB */ = {
 			isa = PBXGroup;
 			children = (
-				649D0D541917A9E9009D9DB1 /* YDHAppDelegate.h */,
-				649D0D551917A9E9009D9DB1 /* YDHAppDelegate.m */,
-				649D0D571917A9E9009D9DB1 /* Images.xcassets */,
+				64E1E40A191A4738000A43F5 /* Setting（设置） */,
+				649D0D7D1917ACFA009D9DB1 /* Discover（广场） */,
+				649D0D811917ACFA009D9DB1 /* Home（首页） */,
+				649D0D851917ACFA009D9DB1 /* Main（主要） */,
+				649D0D891917ACFA009D9DB1 /* Me（我） */,
+				64E1E3F31919F998000A43F5 /* Newfeature(新特性) */,
+				649D0D8D1917ACFA009D9DB1 /* Message（消息） */,
+				649D0D911917ACFA009D9DB1 /* Other(其他) */,
 				649D0D4C1917A9E9009D9DB1 /* Supporting Files */,
 			);
 			path = XLWB;
@@ -118,10 +183,9 @@
 		649D0D4C1917A9E9009D9DB1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				649D0D571917A9E9009D9DB1 /* Images.xcassets */,
 				649D0D4D1917A9E9009D9DB1 /* XLWB-Info.plist */,
 				649D0D4E1917A9E9009D9DB1 /* InfoPlist.strings */,
-				649D0D511917A9E9009D9DB1 /* main.m */,
-				649D0D531917A9E9009D9DB1 /* XLWB-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -142,6 +206,282 @@
 				649D0D671917A9E9009D9DB1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		649D0D7D1917ACFA009D9DB1 /* Discover（广场） */ = {
+			isa = PBXGroup;
+			children = (
+				649D0D7E1917ACFA009D9DB1 /* Controller */,
+				649D0D7F1917ACFA009D9DB1 /* Model */,
+				649D0D801917ACFA009D9DB1 /* View */,
+			);
+			name = "Discover（广场）";
+			path = "Classes/Discover（广场）";
+			sourceTree = "<group>";
+		};
+		649D0D7E1917ACFA009D9DB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				649D0DA41917B015009D9DB1 /* YDHDiscoverViewController.h */,
+				649D0DA51917B015009D9DB1 /* YDHDiscoverViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		649D0D7F1917ACFA009D9DB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		649D0D801917ACFA009D9DB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64F327141919EF9D00725D20 /* YDHSearchBar.h */,
+				64F327151919EF9D00725D20 /* YDHSearchBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		649D0D811917ACFA009D9DB1 /* Home（首页） */ = {
+			isa = PBXGroup;
+			children = (
+				649D0D821917ACFA009D9DB1 /* Controller */,
+				649D0D831917ACFA009D9DB1 /* Model */,
+				649D0D841917ACFA009D9DB1 /* View */,
+			);
+			name = "Home（首页）";
+			path = "Classes/Home（首页）";
+			sourceTree = "<group>";
+		};
+		649D0D821917ACFA009D9DB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				649D0DA11917AFFF009D9DB1 /* YDHHomeViewController.h */,
+				649D0DA21917AFFF009D9DB1 /* YDHHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		649D0D831917ACFA009D9DB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		649D0D841917ACFA009D9DB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64DD57891919320F007F3519 /* YDHTitleButton.h */,
+				64DD578A1919320F007F3519 /* YDHTitleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		649D0D851917ACFA009D9DB1 /* Main（主要） */ = {
+			isa = PBXGroup;
+			children = (
+				649D0D861917ACFA009D9DB1 /* Controller */,
+				649D0D871917ACFA009D9DB1 /* Model */,
+				649D0D881917ACFA009D9DB1 /* View */,
+			);
+			name = "Main（主要）";
+			path = "Classes/Main（主要）";
+			sourceTree = "<group>";
+		};
+		649D0D861917ACFA009D9DB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				649D0D9B1917AF43009D9DB1 /* YDHTabBarViewController.h */,
+				649D0D9C1917AF43009D9DB1 /* YDHTabBarViewController.m */,
+				64DD57831918B4DD007F3519 /* YDHNavigationController.h */,
+				64DD57841918B4DD007F3519 /* YDHNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		649D0D871917ACFA009D9DB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		649D0D881917ACFA009D9DB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				647CB2641917CDD700D22682 /* YDHTabBar.h */,
+				647CB2651917CDD700D22682 /* YDHTabBar.m */,
+				64DD577D1917E11A007F3519 /* YDHTabBarButton.h */,
+				64DD577E1917E11A007F3519 /* YDHTabBarButton.m */,
+				64DD57801918A943007F3519 /* YDHBadgeButton.h */,
+				64DD57811918A943007F3519 /* YDHBadgeButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		649D0D891917ACFA009D9DB1 /* Me（我） */ = {
+			isa = PBXGroup;
+			children = (
+				649D0D8A1917ACFA009D9DB1 /* Controller */,
+				649D0D8B1917ACFA009D9DB1 /* Model */,
+				649D0D8C1917ACFA009D9DB1 /* View */,
+			);
+			name = "Me（我）";
+			path = "Classes/Me（我）";
+			sourceTree = "<group>";
+		};
+		649D0D8A1917ACFA009D9DB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				649D0D9E1917AFE1009D9DB1 /* YDHMeTableViewController.h */,
+				649D0D9F1917AFE1009D9DB1 /* YDHMeTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		649D0D8B1917ACFA009D9DB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		649D0D8C1917ACFA009D9DB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		649D0D8D1917ACFA009D9DB1 /* Message（消息） */ = {
+			isa = PBXGroup;
+			children = (
+				649D0D8E1917ACFA009D9DB1 /* Controller */,
+				649D0D8F1917ACFA009D9DB1 /* Model */,
+				649D0D901917ACFA009D9DB1 /* View */,
+			);
+			name = "Message（消息）";
+			path = "Classes/Message（消息）";
+			sourceTree = "<group>";
+		};
+		649D0D8E1917ACFA009D9DB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				649D0D981917AD59009D9DB1 /* YDHMessageViewController.h */,
+				649D0D991917AD59009D9DB1 /* YDHMessageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		649D0D8F1917ACFA009D9DB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		649D0D901917ACFA009D9DB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		649D0D911917ACFA009D9DB1 /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				649D0D921917ACFA009D9DB1 /* main.m */,
+				649D0D931917ACFA009D9DB1 /* XLWB-Prefix.pch */,
+				649D0D941917ACFA009D9DB1 /* YDHAppDelegate.h */,
+				649D0D951917ACFA009D9DB1 /* YDHAppDelegate.m */,
+				649D0DAA1917C847009D9DB1 /* UIImage+YDH.h */,
+				649D0DAB1917C847009D9DB1 /* UIImage+YDH.m */,
+				64DD57861918FB67007F3519 /* UIBarButtonItem+YDH.h */,
+				64DD57871918FB67007F3519 /* UIBarButtonItem+YDH.m */,
+			);
+			name = "Other(其他)";
+			path = "Classes/Other(其他)";
+			sourceTree = "<group>";
+		};
+		64E1E3F31919F998000A43F5 /* Newfeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				64E1E3F41919F998000A43F5 /* Controller */,
+				64E1E3F51919F998000A43F5 /* Model */,
+				64E1E3F61919F998000A43F5 /* View */,
+			);
+			name = "Newfeature(新特性)";
+			path = "Classes/Newfeature(新特性)";
+			sourceTree = "<group>";
+		};
+		64E1E3F41919F998000A43F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64E1E3F71919FA24000A43F5 /* YDHNewfeatureViewController.h */,
+				64E1E3F81919FA24000A43F5 /* YDHNewfeatureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64E1E3F51919F998000A43F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		64E1E3F61919F998000A43F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64E1E3FA1919FA4B000A43F5 /* YDHPageControl.h */,
+				64E1E3FB1919FA4B000A43F5 /* YDHPageControl.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64E1E40A191A4738000A43F5 /* Setting（设置） */ = {
+			isa = PBXGroup;
+			children = (
+				64E1E40B191A4738000A43F5 /* Controller */,
+				64E1E40E191A4738000A43F5 /* Group */,
+				64E1E40F191A4738000A43F5 /* Item */,
+			);
+			name = "Setting（设置）";
+			path = "Classes/Setting（设置）";
+			sourceTree = "<group>";
+		};
+		64E1E40B191A4738000A43F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64E1E40C191A4738000A43F5 /* YDHBaseSettingViewController.h */,
+				64E1E40D191A4738000A43F5 /* YDHBaseSettingViewController.m */,
+				64E1E411191A475B000A43F5 /* YDHSettingViewController.h */,
+				64E1E412191A475B000A43F5 /* YDHSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		64E1E40E191A4738000A43F5 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		64E1E40F191A4738000A43F5 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				64E1E414191A49A1000A43F5 /* YDHSettingItem.h */,
+				64E1E415191A49A1000A43F5 /* YDHSettingItem.m */,
+				64E1E417191A4C65000A43F5 /* YDHSettingCell.h */,
+				64E1E418191A4C65000A43F5 /* YDHSettingCell.m */,
+				64E1E41A191A4E78000A43F5 /* YDHSettingGroup.h */,
+				64E1E41B191A4E78000A43F5 /* YDHSettingGroup.m */,
+			);
+			path = Item;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +580,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				649D0D561917A9E9009D9DB1 /* YDHAppDelegate.m in Sources */,
-				649D0D521917A9E9009D9DB1 /* main.m in Sources */,
+				64DD578B1919320F007F3519 /* YDHTitleButton.m in Sources */,
+				64E1E419191A4C65000A43F5 /* YDHSettingCell.m in Sources */,
+				649D0D9D1917AF43009D9DB1 /* YDHTabBarViewController.m in Sources */,
+				64E1E3F91919FA24000A43F5 /* YDHNewfeatureViewController.m in Sources */,
+				647CB2661917CDD700D22682 /* YDHTabBar.m in Sources */,
+				64E1E3FC1919FA4B000A43F5 /* YDHPageControl.m in Sources */,
+				64F327161919EF9D00725D20 /* YDHSearchBar.m in Sources */,
+				649D0DA01917AFE1009D9DB1 /* YDHMeTableViewController.m in Sources */,
+				649D0D971917ACFA009D9DB1 /* YDHAppDelegate.m in Sources */,
+				64DD57881918FB67007F3519 /* UIBarButtonItem+YDH.m in Sources */,
+				64E1E416191A49A1000A43F5 /* YDHSettingItem.m in Sources */,
+				649D0DAC1917C847009D9DB1 /* UIImage+YDH.m in Sources */,
+				64E1E41C191A4E78000A43F5 /* YDHSettingGroup.m in Sources */,
+				64DD577F1917E11A007F3519 /* YDHTabBarButton.m in Sources */,
+				649D0DA31917AFFF009D9DB1 /* YDHHomeViewController.m in Sources */,
+				64DD57821918A943007F3519 /* YDHBadgeButton.m in Sources */,
+				649D0D9A1917AD59009D9DB1 /* YDHMessageViewController.m in Sources */,
+				64E1E413191A475B000A43F5 /* YDHSettingViewController.m in Sources */,
+				64DD57851918B4DD007F3519 /* YDHNavigationController.m in Sources */,
+				649D0DA61917B015009D9DB1 /* YDHDiscoverViewController.m in Sources */,
+				64E1E410191A4738000A43F5 /* YDHBaseSettingViewController.m in Sources */,
+				649D0D961917ACFA009D9DB1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,8 +719,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "XLWB/XLWB-Prefix.pch";
+				GCC_PREFIX_HEADER = "XLWB/Classes/Other(其他)/XLWB-Prefix.pch";
 				INFOPLIST_FILE = "XLWB/XLWB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -372,8 +733,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "XLWB/XLWB-Prefix.pch";
+				GCC_PREFIX_HEADER = "XLWB/Classes/Other(其他)/XLWB-Prefix.pch";
 				INFOPLIST_FILE = "XLWB/XLWB-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +800,7 @@
 				649D0D701917A9E9009D9DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		649D0D711917A9E9009D9DB1 /* Build configuration list for PBXNativeTarget "XLWBTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +809,7 @@
 				649D0D731917A9E9009D9DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

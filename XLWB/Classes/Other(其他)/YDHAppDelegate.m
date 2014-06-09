@@ -7,14 +7,34 @@
 //
 
 #import "YDHAppDelegate.h"
-
+#import "YDHTabBarViewController.h"
+#import "YDHNewfeatureViewController.h"
 @implementation YDHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+     NSString *key = @"CFBundleVersion";
+    //取出沙盒上次使用的版本号
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *lastVersion = [defaults stringForKey:key];
+    //获取当前版本号
+    NSString *currentVersion = [NSBundle mainBundle].infoDictionary[key];
+    
+    if ([currentVersion isEqualToString:lastVersion]) {
+        //显示状态栏
+        application.statusBarHidden = NO;
+        
+        self.window.rootViewController = [[YDHTabBarViewController alloc]init];
+    }else {//新版本
+        self.window.rootViewController = [[YDHNewfeatureViewController alloc]init];
+        //存新版本
+        [defaults setObject:currentVersion forKey:key];
+        //沙盒同步
+        [defaults synchronize];
+    }
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
